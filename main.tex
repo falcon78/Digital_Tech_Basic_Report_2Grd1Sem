@@ -42,7 +42,7 @@ paperwidth=8.5in%
 \begin{titlepage}
 	\maketitle
 \end{titlepage}
-
+ 
 \tableofcontents
 \pagebreak
 
@@ -171,6 +171,9 @@ $\bullet$ 入力電圧に対する AD 変換器の量子化出力と量子化誤
 \end{enumerate}
 \pagebreak
 
+AD変換器の入出力電圧(グラフ)
+\pagebreak
+
 \subsection{実験1.2 アナログ入力電圧を 4bit で量子化した場合の出力値}
 ディジタル出力が変化するときの入力電圧 V(in) を測定する。
 
@@ -225,6 +228,9 @@ $\bullet$ 入力電圧に対する AD 変換器の量子化出力と量子化誤
 		\includegraphics[width=0.2\textwidth]{page.png}
 		\caption{AD 変換器のディジタル出力に対応するアナログ入力電圧 (グラフ)}
 \end{figure}
+\pagebreak
+
+AD 変換器のディジタル出力に対応するアナログ入力電圧 (グラフ)
 \pagebreak
 
 \section{実験3 逐次型AD変換器}
@@ -310,18 +316,21 @@ $\bullet$ 入力電圧に対する AD 変換器の量子化出力と量子化誤
 \begin{itemize}
 \centering
     \item (b) の対応-0.68[V](1.88-2.56) に相当する。 
-    \item TP5 の意味： 入力電圧から 2n ×量子化単位電圧を引いた値 ( TP5 はアナログ値のディジタル的表示を意味し、電圧単位との差を表している。)
-    \item TP5 の信号名：DA 変換器の出力
+    \item TP5 の意味： 入力電圧から 2n x 量子化単位電圧を引いた値 ( TP5 はアナログ値のディジタル的表示を意味し、電圧単位との差を表している。)
+    \item TP5 の信号名：入力信号から出力信号を引いた信号
 \end{itemize}
 
 \subsection{実験結果}
 \begin{figure}[H]
 		\centering
 		\includegraphics[width=0.2\textwidth]{page.png}
-		\caption{波形スケッチ}
+		\caption{AD変換動作の解析波形}
 \end{figure}
-
 \pagebreak
+
+図6:波形スケッチ
+\pagebreak
+
 
 \section{実験4 人間の手によるAD変換}
 
@@ -368,6 +377,12 @@ $\bullet$ [3.2,5,6.5,5,3.2,1.6,-0.7,-3.2,-4.2,-3.5,-2.1,-0.1,1.9,1.6,1.6,0.9,0.5
 		\includegraphics[width=0.2\textwidth]{page.png}
 		\caption{(トレース紙) アナログ信号のサンプリング、量子化}
 \end{figure}
+\pagebreak
+
+図7: (トレース紙)アナログ信号のサンプリング、量子化
+\pagebreak
+
+図7: (トレース紙)アナログ信号のサンプリング、量子化
 \pagebreak
 
 \section{実験5  信号発生器入力による折り返し誤差の確認 }
@@ -478,6 +493,12 @@ $\bullet$ [3.2,5,6.5,5,3.2,1.6,-0.7,-3.2,-4.2,-3.5,-2.1,-0.1,1.9,1.6,1.6,0.9,0.5
 \end{figure}
 \pagebreak
 
+図9:実験5 :入力信号が500Hzの時の入出力波形
+\pagebreak
+
+図10:実験5 :入力信号が1.5kHzの時の入出力波形
+\pagebreak
+
 \section{検討事項}
 
 \subsection{検討事項1}
@@ -510,6 +531,9 @@ $\bullet$ [3.2,5,6.5,5,3.2,1.6,-0.7,-3.2,-4.2,-3.5,-2.1,-0.1,1.9,1.6,1.6,0.9,0.5
 		\includegraphics[width=0.2\textwidth]{page.png}
 		\caption{入力電圧に対する量子化誤差の変化を表しているグラフ}
 \end{figure}
+\pagebreak
+
+図11:入力電圧に対する量子化誤差の変化を表しているグラフ
 \pagebreak
 
 \subsection{検討事項4}
@@ -580,7 +604,7 @@ $\bullet$ [3.2,5,6.5,5,3.2,1.6,-0.7,-3.2,-4.2,-3.5,-2.1,-0.1,1.9,1.6,1.6,0.9,0.5
 
 \begin{quote}
     \centering
-    よって01100100量子化誤差0.02[V]
+    よって01101011量子化誤差0.02[V]
 \end{quote}
 
 \subsection{検討事項9}
